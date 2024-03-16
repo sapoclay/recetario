@@ -4,8 +4,10 @@ Esta es una primera versión de un recetario en el que el usuario podrá registr
 Para empezar es necesario crear la base de datos utilizando el archivo "recetas.sql" que está incluido en este repositorio".
 Después ya podrá loguearse en el recetario utilizando el sistema de login que se encuentra dentro de la carpeta "Login".
 Los datos de la prueba son
+
 - Email: prueba@gmx.com 
 - Password: abc123.
+
 Aun que estos datos realmente no son necesario, ya que registrar una cuenta es tan sencillo como dirigirse al formulario de registro y completar los campos.
 
 ![login-recetario](https://github.com/sapoclay/recetario/assets/6242827/01d0741a-7fcf-415b-9870-7ac50e129333)
