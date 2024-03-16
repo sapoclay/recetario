@@ -3,7 +3,7 @@
 Esta es una primera versión de un recetario en el que el usuario podrá registrarse de forma gratuita. 
 Para empezar es necesario crear la base de datos utilizando el archivo "recetas.sql" que está incluido en este repositorio". Es necesario que dentro de la carpeta "conn", en el archivo conn.php se establezcan los datos a la base de datos correctos. Los parámetros a modificar, son los indicados en la siguiente captura de pantalla:
 
-
+![datos-base-de-datos](https://github.com/sapoclay/recetario/assets/6242827/28191c49-96ae-43cc-9325-2626c9d5d43a)
 
 Después ya podrá loguearse en el recetario utilizando el sistema de login que se encuentra dentro de la carpeta "login".
 Los datos de la prueba son
