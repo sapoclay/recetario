@@ -36,3 +36,4 @@ Después de loguearse de forma correcta, el usuario ya podrá añadir, ver, elim
 - Recuperar contraseña del usuario.
 - Insertar vídeos dentro de cada receta.
 - Mejorar la visibilidad en dispositivos móviles.
+- Cambiar las URL de las redirecciones. Actualmente están para trabajar en local.
