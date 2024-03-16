@@ -1,10 +1,18 @@
 ## RECETARIO P'A TUS COSAS
 
-Esta es una primera versión de un recetario en el que el usuario podrá registrarse de forma tratuita. Después ya podrá loguearse en el recetario y guardar o consultar ahí las recetas de cocina que se guarden.
+Esta es una primera versión de un recetario en el que el usuario podrá registrarse de forma gratuita. 
+Para empezar es necesario crear la base de datos utilizando el archivo "recetas.sql" que está incluido en este repositorio".
+Después ya podrá loguearse en el recetario utilizando el sistema de login que se encuentra dentro de la carpeta "Login".
+Los datos de la prueba son
+- Email: prueba@gmx.com 
+- Password: abc123.
+Aun que estos datos realmente no son necesario, ya que registrar una cuenta es tan sencillo como dirigirse al formulario de registro y completar los campos.
 
 ![login-recetario](https://github.com/sapoclay/recetario/assets/6242827/01d0741a-7fcf-415b-9870-7ac50e129333)
 
 ![ventana-modal-login](https://github.com/sapoclay/recetario/assets/6242827/7a0c4642-ff06-4df5-9d59-9e3a4c46dc67)
+
+Después de loguearse de forma correcta, el usuario ya podrá añadir, ver, eliminar y categorizar sus recetas utilizando una interfaz web sencilla.
 
 ![slide](https://github.com/sapoclay/recetario/assets/6242827/97570093-d4df-4086-8236-0ba1b056f4ad)
 
@@ -20,7 +28,6 @@ Esta es una primera versión de un recetario en el que el usuario podrá registr
 
 ### Cosas por hacer
 
-- Subir la base de datos con la que todavía estoy a vueltas.
 - Recuperar contraseña del usuario.
 - Insertar vídeos dentro de cada receta.
 - Mejorar la visibilidad en dispositivos móviles.
