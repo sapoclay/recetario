@@ -2,7 +2,7 @@
 
 Esta es una primera versión de un recetario en el que el usuario podrá registrarse de forma gratuita. 
 Para empezar es necesario crear la base de datos utilizando el archivo "recetas.sql" que está incluido en este repositorio".
-Después ya podrá loguearse en el recetario utilizando el sistema de login que se encuentra dentro de la carpeta "Login".
+Después ya podrá loguearse en el recetario utilizando el sistema de login que se encuentra dentro de la carpeta "login".
 Los datos de la prueba son
 
 - Email: prueba@gmx.com 
