@@ -11,3 +11,7 @@
 ![instrucciones-add-receta](https://github.com/sapoclay/recetario/assets/6242827/72e376a8-f6cd-4586-83b1-37918c58eaeb)
 
 ![listado-recetas](https://github.com/sapoclay/recetario/assets/6242827/a7fad833-c141-464a-86ca-c6d87c83e359)
+
+![listado-dentro-categoría](https://github.com/sapoclay/recetario/assets/6242827/4ae17473-df2b-4384-94cc-db2ef2423691)
+
+![receta](https://github.com/sapoclay/recetario/assets/6242827/e52f49f4-e62f-4f67-8d41-56846b9eb4e1)
