@@ -37,3 +37,5 @@ Después de loguearse de forma correcta, el usuario ya podrá añadir, ver, elim
 - Insertar vídeos dentro de cada receta.
 - Mejorar la visibilidad en dispositivos móviles.
 - Cambiar las URL de las redirecciones. Actualmente están para trabajar en local.
+
+Relacionado con el artículo: https://entreunosyceros.net/recetario-web-crea-el-tuyo-ten-tus-recetas-de-cocina-a-mano/
