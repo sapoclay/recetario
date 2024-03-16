@@ -1,7 +1,10 @@
 ## RECETARIO P'A TUS COSAS
 
 Esta es una primera versión de un recetario en el que el usuario podrá registrarse de forma gratuita. 
-Para empezar es necesario crear la base de datos utilizando el archivo "recetas.sql" que está incluido en este repositorio".
+Para empezar es necesario crear la base de datos utilizando el archivo "recetas.sql" que está incluido en este repositorio". Es necesario que dentro de la carpeta "conn", en el archivo conn.php se establezcan los datos a la base de datos correctos. Los parámetros a modificar, son los indicados en la siguiente captura de pantalla:
+
+
+
 Después ya podrá loguearse en el recetario utilizando el sistema de login que se encuentra dentro de la carpeta "login".
 Los datos de la prueba son
 
