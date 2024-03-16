@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(210, 210, 210);
+}
+
+.card {
+    background-color: rgb(240, 240, 240);
+}
+
+.main {
+    height: auto;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 45vh;
+    width: 100%;
+    
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    width: 70%;
+    margin-left: 300px;
+}
+
+
+.caption-p {
+    font-size: 25px;
+}
+
+
+section {
+    min-height: 100vh;
+}
+
+#category, #food {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-food-list {
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
+
+.btn-add-food {
+    width: 150px !important;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* Ver contenido en la ventana modal */
+#viewRecipeProcedure, #viewRecipeIngredients{
+    white-space: pre-wrap; 
+    overflow-wrap: break-word; 
+    text-align: left;
+}
+
+/* Cabecera categorías */
+.cabecera-cat{
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* Categorías de las ventanas modal */
+
+.text-muted{
+    font-size: 12px;
+}
+
+/* Efecto categorías */
+
+.card{
+    border: none; /* Para eliminar el borde predeterminado */
+}
+.cat {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Agregamos la transición para la sombra */
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5); /* Definimos la sombra inicial */
+}
+
+.cat:hover {
+    transform: scale(1.1); /* Escala de zoom del 10% */
+    transition: transform 0.5s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra */  
+}
+
+
+
+/* Efecto biselado a la imagen de la lista de recetas */
+
+.img-fluid{
+    
+        border: 1px solid #1f1f1f; /* Color del borde, debe ser más claro que fondo */
+        background:#494949; /* Fondo */
+        color: #fff;  /* Color del texto */
+        border-radius: 6px;  /* Bordes redondos */
+        box-shadow:inset 2px 2px 4px rgba(120, 120, 120, .4), inset -3px -3px 3px rgba(255,255,255,.4);
+        text-shadow: 1px 1px rgba(0,0,0,.3);  /* Sombra del texto */
+        text-align: center;  /* Alineación del texto */
+    
+}
+
+/* Margen superior imagenes categorías */
+
+.d-flex{
+    margin-top:2%;
+}
+
+/* Color de fondo barra de navegación */
+
+.bg-dark {
+    background-color: rgb(75, 75, 75);
+  }
+
+/* Borde entre ingredientes y pasos en las recetas */
+
+.col{
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+h5{
+  border-bottom: 1px solid #000;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+}

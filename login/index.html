@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded">Menú</span>
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo">
+                <h2>Recetario</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">Cerrar</span>
+                <li><a href="https://entreunosyceros.net" target="_blank" title="Web entreunosyceros">entreunosyceros</a></li>
+                <li><a href="https://entreunosyceros.net/about/">About us</a></li>
+            </ul>
+            <button class="login-btn">LOGIN</button>
+        </nav>
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">X</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>Bienvenid@ otra vez</h2>
+                <p>Utiliza tus datos para conectarte</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="assets/login.php" method="post">
+                    <div class="input-field">
+                        <input type="text" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="assets/recuperar_password.php" class="forgot-pass-link">¿Olvidaste la contraseña?</a>
+                    <button type="submit">LogIn</button>
+                </form>
+                <div class="bottom-link">
+                    ¿No tienes una cuenta? 
+                    <a href="#" id="signup-link">Registrate</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Crear cuenta</h2>
+                <p>Para ser parte de esta comunidad, rellena el siguiente formulario.</p>
+            </div>
+            <div class="form-content">
+                <h2>Registro</h2>
+                <form action="assets/registrar_usuario.php" method="post">
+                    <div class="input-field">
+                        <input type="text" name="email" required>
+                        <label>Escribe tu email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" name="password" required>
+                        <label>Crear contraseña</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy" required>
+                        <label for="policy">
+                            Estoy de acuerdo con los 
+                            <a href="terminosycondiciones.html" class="option" target="_blank" title="Terminos y condiciones del recetario">Terminos & Condiciones</a>
+                        </label>
+                    </div>
+                    <button type="submit">Registrar</button>
+                </form>
+                <div class="bottom-link">
+                    ¿Ya tienes una cuenta? 
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
